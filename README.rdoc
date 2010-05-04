@@ -1,0 +1,15 @@
+= have_table matcher
+
+This gem provides a custom matcher for testing tables in an intuitive way.
+
+eg:
+
+    response.should have_table do
+      with_row do 
+        with_cell("Username" => "jsmith")
+        with_cell("First Name" => "John")
+        with_cell("Last Name" => "Smith")
+        with_cell("Email" => "jsmith@email.com")
+      end
+    end
+    
