@@ -7,13 +7,13 @@ spec = Gem::Specification.new do |s|
   s.email = "adparadise@gmail.com"
   s.homepage = "http://andrewparadise.com/"
   s.platform = Gem::Platform::RUBY
-  s.description = "An RSpec matcher"
+  s.description = "An RSpec matcher for tables with headers."
   s.summary = "An RSpec matcher for view-testing tables."
   s.files = Dir.glob("{bin,lib}/**/*")
   s.require_path = "lib"
   s.test_files = Dir.glob("{spec}/**/*spec.rb")
   s.has_rdoc = true
-  s.extra_rdoc_files = ["README"]
+  s.extra_rdoc_files = ["README.rdoc"]
   s.add_dependency("rspec", ">= 1.2.9")
 end
  
