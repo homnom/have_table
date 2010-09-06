@@ -15,5 +15,6 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.rdoc"]
   s.add_dependency("rspec", ">= 1.2.9")
+  s.add_dependency("webrat", ">= 0.7.1")
 end
  

@@ -1,3 +1,5 @@
+require 'webrat'
+
 module HaveTable
   class HaveTable
     def matches?(response, &block)
